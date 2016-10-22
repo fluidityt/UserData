@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/** Should have private init and var
+#### Usage:
+		private init() {}
+		private static var initiated: Bool = false
+		static func makeNewInstance&lt;T&gt; ()
+*/
+private protocol SingleSafe {
+	static func makeNewInstance&lt;T&gt; () -&gt; T	// This should be internal
+	static var initiated: Bool {	get	}	// This should be private
+	init()	// This should be private
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>53910936-14B6-4930-8A62-2AEB5F4B65B3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>my Singleton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

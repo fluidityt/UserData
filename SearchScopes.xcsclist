@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchScopes
+   version = "1.1">
+   <Scope
+      name = "Main Scope"
+      predicate = "name CONTAINS &quot;U&quot;"
+      uuid = "AB8773E5-41B5-45E8-889F-115C3BBF7C09">
+   </Scope>
+</SearchScopes>
