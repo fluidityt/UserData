@@ -87,7 +87,7 @@
 		<key>xcode.syntax.comment.doc</key>
 		<string>0.5 0.0885671 0.431888 1</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>0.801 0.161723 0.711945 1</string>
+		<string>1 0.0972406 0.0462621 1</string>
 		<key>xcode.syntax.identifier.class</key>
 		<string>0.00385209 0.106675 1 1</string>
 		<key>xcode.syntax.identifier.class.system</key>
