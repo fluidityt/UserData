@@ -8,28 +8,6 @@
 		<array>
 			<dict>
 				<key>Action</key>
-				<string>performAlertEvent:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>4C9E0EB4-51F8-4CFB-B4A6-B18ED9A44DD3-1002-000005902A510422</string>
-				<key>Group</key>
-				<string>Xcode Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Xcode</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>@1</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Behaviors</string>
-				<key>Title</key>
-				<string>Open GameScene</string>
-			</dict>
-			<dict>
-				<key>Action</key>
 				<string>hide:</string>
 				<key>Alternate</key>
 				<string>NO</string>
@@ -312,7 +290,7 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
-				<string>Font</string>
+				<string>Format</string>
 				<key>Title</key>
 				<string>Show Fonts</string>
 			</dict>
@@ -802,7 +780,7 @@
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>IDESceneKitEditor.InspectorCategory.Physics</string>
+				<string>CoreData.MappingModel.InspectorCategory</string>
 				<key>Group</key>
 				<string>View Menu</string>
 				<key>GroupID</key>
@@ -814,7 +792,107 @@
 				<key>Parent Title</key>
 				<string>Utilities</string>
 				<key>Title</key>
-				<string>Show Physics Inspector</string>
+				<string>Show Mapping Model Inspector</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>showInspectorWithChoiceFromSender:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDESourceEditor.Playgrounds.InspectorCategory.Attributes</string>
+				<key>Group</key>
+				<string>View Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Utilities</string>
+				<key>Title</key>
+				<string>Show Attributes Inspector</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>showInspectorWithChoiceFromSender:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.InterfaceBuilderKit.InspectorCategory.Bindings</string>
+				<key>Group</key>
+				<string>View Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Utilities</string>
+				<key>Title</key>
+				<string>Show Bindings Inspector</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>showInspectorWithChoiceFromSender:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.InterfaceBuilder.AssetCatalog.InspectorCategory.Attributes</string>
+				<key>Group</key>
+				<string>View Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Utilities</string>
+				<key>Title</key>
+				<string>Show Attributes Inspector</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>showInspectorWithChoiceFromSender:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>CoreData.DataModel.InspectorCategory</string>
+				<key>Group</key>
+				<string>View Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Utilities</string>
+				<key>Title</key>
+				<string>Show Data Model Inspector</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>showInspectorWithChoiceFromSender:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.InterfaceBuilderKit.InspectorCategory.Effects</string>
+				<key>Group</key>
+				<string>View Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Utilities</string>
+				<key>Title</key>
+				<string>Show View Effects Inspector</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -835,6 +913,146 @@
 				<string>Utilities</string>
 				<key>Title</key>
 				<string>Show Material Inspector</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>showInspectorWithChoiceFromSender:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.DebuggerUI.ViewDebugger.InspectorCategory.RuntimeProperties</string>
+				<key>Group</key>
+				<string>View Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Utilities</string>
+				<key>Title</key>
+				<string>Show Object Inspector</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>showInspectorWithChoiceFromSender:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESceneKitEditor.InspectorCategory.Node</string>
+				<key>Group</key>
+				<string>View Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Utilities</string>
+				<key>Title</key>
+				<string>Show Node Inspector</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>showInspectorWithChoiceFromSender:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESceneKitEditor.InspectorCategory.Scene</string>
+				<key>Group</key>
+				<string>View Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Utilities</string>
+				<key>Title</key>
+				<string>Show Scene Inspector</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>showInspectorWithChoiceFromSender:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.InterfaceBuilderKit.InspectorCategory.Size</string>
+				<key>Group</key>
+				<string>View Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Utilities</string>
+				<key>Title</key>
+				<string>Show Size Inspector</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>showInspectorWithChoiceFromSender:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.InterfaceBuilderKit.InspectorCategory.Attributes</string>
+				<key>Group</key>
+				<string>View Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Utilities</string>
+				<key>Title</key>
+				<string>Show Attributes Inspector</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>showInspectorWithChoiceFromSender:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.InspectorCategory.QuickHelp</string>
+				<key>Group</key>
+				<string>View Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Utilities</string>
+				<key>Title</key>
+				<string>Show Quick Help Inspector</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>showInspectorWithChoiceFromSender:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESceneKitEditor.InspectorCategory.EntityAttributes</string>
+				<key>Group</key>
+				<string>View Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Utilities</string>
+				<key>Title</key>
+				<string>Show Entity Attributes Inspector</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -882,86 +1100,6 @@
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>Xcode.InterfaceBuilderKit.InspectorCategory.Attributes</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Attributes Inspector</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>IDESceneKitEditor.InspectorCategory.EntityAttributes</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Entity Attributes Inspector</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>SpriteKitEditor.InspectorCategory.SKCustomClass</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Custom Class Inspector</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.InterfaceBuilderKit.InspectorCategory.Size</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Size Inspector</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
 				<string>Xcode.IDEKit.InspectorCategory.File</string>
 				<key>Group</key>
 				<string>View Menu</string>
@@ -975,86 +1113,6 @@
 				<string>Utilities</string>
 				<key>Title</key>
 				<string>Show File Inspector</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.InterfaceBuilder.AssetCatalog.InspectorCategory.Attributes</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Attributes Inspector</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.InspectorCategory.QuickHelp</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Quick Help Inspector</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.DebuggerUI.ViewDebugger.InspectorCategory.RuntimeProperties</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Object Inspector</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.Playgrounds.InspectorCategory.Attributes</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Attributes Inspector</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -1082,7 +1140,7 @@
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>Xcode.InterfaceBuilderKit.InspectorCategory.Bindings</string>
+				<string>IDESceneKitEditor.InspectorCategory.Physics</string>
 				<key>Group</key>
 				<string>View Menu</string>
 				<key>GroupID</key>
@@ -1094,167 +1152,7 @@
 				<key>Parent Title</key>
 				<string>Utilities</string>
 				<key>Title</key>
-				<string>Show Bindings Inspector</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>CoreData.MappingModel.InspectorCategory</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Mapping Model Inspector</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.InterfaceBuilderKit.InspectorCategory.Effects</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show View Effects Inspector</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>IDESceneKitEditor.InspectorCategory.Node</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Node Inspector</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>CoreData.DataModel.InspectorCategory</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Data Model Inspector</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>IDESceneKitEditor.InspectorCategory.Scene</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Scene Inspector</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>SpriteKitEditor.InspectorCategory.SKObject</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Attributes Inspector</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showLibraryWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.LibraryCategory.Media</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Media Library</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showLibraryWithChoiceFromSender:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.LibraryCategory.Objects</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Object Library</string>
+				<string>Show Physics Inspector</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -1282,6 +1180,26 @@
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
+				<string>Xcode.IDEKit.LibraryCategory.Media</string>
+				<key>Group</key>
+				<string>View Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Utilities</string>
+				<key>Title</key>
+				<string>Show Media Library</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>showLibraryWithChoiceFromSender:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
 				<string>Xcode.IDEKit.LibraryCategory.Files</string>
 				<key>Group</key>
 				<string>View Menu</string>
@@ -1295,6 +1213,26 @@
 				<string>Utilities</string>
 				<key>Title</key>
 				<string>Show File Template Library</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>showLibraryWithChoiceFromSender:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.LibraryCategory.Objects</string>
+				<key>Group</key>
+				<string>View Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Utilities</string>
+				<key>Title</key>
+				<string>Show Object Library</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -3882,6 +3820,7 @@
 				<string>scrollToBeginningOfDocument:</string>
 				<string>scrollToEndOfDocument:</string>
 				<string>transpose:</string>
+				<string>insertTabIgnoringFieldEditor:</string>
 				<string>insertSingleQuoteIgnoringSubstitution:</string>
 				<string>previousCompletion:</string>
 				<string>nextCompletion:</string>
