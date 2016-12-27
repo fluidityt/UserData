@@ -9,33 +9,61 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>enum Wearable {
-    enum Weight: Int {
-	case Light = 1
-	case Mid = 4
-	case Heavy = 10
-    }
-    enum Armor: Int {
-	case Light = 2
-	case Strong = 8
-	case Heavy = 20
-    }
-    case Helmet(weight: Weight, armor: Armor)
-    case Bplate(weight: Weight, armor: Armor)
-    case Shield(weight: Weight, armor: Armor)
+	<string>
+
+indirect enum ArithmeticExpression {
+	case number(Int)
+	case addition(ArithmeticExpression,		    ArithmeticExpression)
+	case multiplication(ArithmeticExpression, ArithmeticExpression)
 }
-let woodenHelmet = Wearable.Helmet(weight: .Light, armor: .Light)</string>
+
+let five	  = ArithmeticExpression.number(5)
+let four	  = ArithmeticExpression.number(4)
+let sum		  = ArithmeticExpression.addition(five, four)
+let product	= ArithmeticExpression.multiplication(sum, ArithmeticExpression.number(2))
+
+func evaluate(_ expression: ArithmeticExpression) -&gt; Int {
+    switch expression {
+    case let .number(value):
+        return value
+    case let .addition(left, right):
+        return evaluate(left) + evaluate(right)
+    case let .multiplication(left, right):
+        return evaluate(left) * evaluate(right)
+    }
+}
+
+print(evaluate(product))
+
+
+/**/
+
+enum NumberCategory {
+   case Small
+   case Medium
+   case Big
+   case Huge
+   init(number n: Int) {
+	if n &lt; 10000 { self = .Small }
+	else if n &lt; 1000000 { self = .Medium }
+	else if n &lt; 100000000 { self = .Big }
+	else { self = .Huge }
+   }
+}
+let aNumber = NumberCategory(number: 100)
+print(aNumber)
+// prints: "Small"</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5AABC6DE-64EA-421B-9B5B-4E30EE8D2EF1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Sexy Enum</string>
+	<string>Advanced Enum</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Enum</string>
+	<string>My Advanced Enum</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
